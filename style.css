@@ -1,0 +1,57 @@
+body {
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.image-pair {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 25vw; /* Increased width */
+    height: auto;
+}
+
+.image-container p {
+    font-family: 'Arial Black', sans-serif; /* Attractive bold font */
+    font-weight: bold;
+    color: darkblue; /* Dark blue color */
+    margin: 10px 0 0; /* Add some margin to separate from the image */
+}
+
+.arrow {
+    font-size: 5vw; /* Increased font size */
+    margin: 0 3vw; /* Increased margin */
+}
+
+hr {
+    width: 95%; /* Adjust as needed */
+    border: 3px solid black; /* Make the line thicker and black */
+    margin: 20px 0; /* Adjust as needed */
+}
+
+
+ .txt {
+            display: flex;
+            align-items: center; /* Vertically center items */
+            justify-content: center; /* Horizontally center items */
+            height: 100px; /* Example fixed height */
+            border: 1px solid #ccc; /* Just for visualization */
+        }
